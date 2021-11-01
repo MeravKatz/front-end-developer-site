@@ -112,3 +112,14 @@ p {
   text-decoration: none;
   display: block;
 }
+
+@media (max-width: 576px) {
+  .project-title,
+  p,
+  .project-link {
+    text-align: center;
+  }
+  h1 {
+    font-size: 60px;
+  }
+}
