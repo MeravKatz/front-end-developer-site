@@ -110,12 +110,16 @@ p {
   padding: 20px 15px;
   text-decoration: none;
   display: block;
+  width: fit-content;
 }
 
 @media (max-width: 576px) {
-  .project-title,
-  p,
   .project-link {
+    display: block;
+    margin: 0 auto;
+  }
+  .project-title,
+  p {
     text-align: center;
   }
   h1 {
